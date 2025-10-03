@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Daniel Ranard - Theoretical Physics Postdoc at Caltech">
+    <title>Daniel Ranard - Caltech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#research" class="nav-link">Research</a>
+            <a href="#contact" class="nav-link">Contact</a>
+            <!-- <a href="cv.pdf" class="nav-link" target="_blank">CV</a> -->
+        </div>
+    </nav>
+
+    <!-- Header/Hero Section -->
+    <header class="header">
+        <div class="container">
+            <h1 class="name">Daniel Ranard</h1>
+            <p class="title">Postdoctoral Fellow in Theoretical Physics</p>
+            <p class="institution">California Institute of Technology</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section section-alt">
+        <div class="container">
+            <div class="about-content">
+                <p>
+                    I am a theoretical physicist studying many-body physics and quantum information theory. 
+                    Currently, I am a postdoctoral fellow at Caltech, advised by Alexei Kitaev. I received 
+                    my PhD at Stanford under Xiaoliang Qi, and I was previously a postdoc at MIT.
+                </p>
+                <p>
+                    Some of my recent interests include topological phases, open systems, and the emergence of classicality. 
+                  My work often involves information-theoretic perspectives on many-body physics—or occasionally, conversely, physics-inspired quantum algorithms. I am also interested in connections to high-energy theory.
+                </p>
+                <p>
+                    I like to prove things when it's both possible and helpful; some of my work falls under the umbrella of mathematical physics. 
+                    A style of question I enjoy is: what physical structures can be recovered from other structures? 
+                    For instance, can we uniquely recover a <a href="https://arxiv.org/abs/1712.01850" target="_blank">local Hamiltonian</a> from the ground state?
+                    What about  <a href="https://arxiv.org/abs/2405.17379" target="_blank">topological invariants</a> from the state alone?
+                    Can we recover a notion of <a href="https://arxiv.org/abs/1702.06142" target="_blank">locality</a> from an abstract Hamiltonian operator, or a notion of   
+                     <a href="https://arxiv.org/abs/2001.01507" target="_blank">classicality</a> from a generic multipartite channel?
+                </p>
+                <p>
+                    See <a href="https://scholar.google.com/citations?user=4QbYckoAAAAJ&hl=en" target="_blank">Google Scholar</a> for a complete list of my publications.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section id="research" class="section">
+        <div class="container">
+            <h2 class="section-title">Selected papers</h2>
+            <div class="research-content">
+                
+                <!-- Featured Paper 1 -->
+                <article class="paper-featured">
+                    <div class="paper-content">
+                        <h4 class="paper-title">
+                            <a href="https://arxiv.org/abs/2405.17379" target="_blank">
+                                Classifying 2D topological phases: mapping ground states to string-nets
+                            </a>
+                        </h4>
+                        <p class="paper-authors">Isaac H. Kim, Daniel Ranard</p>
+                        <p class="paper-venue">2024</p>
+                        <p class="paper-description">
+                            We prove the conjectured classification of topological phases for 2D systems with gappable boundary,
+                             subject to some simplifying assumptions, e.g., assuming that correlations between disjoint regions 
+                             are precisely zero. While such a classification is sometimes taken for granted, it is not obvious. 
+                             For instance, if two gapped ground states of two different Hamiltonians have the same anyon content, 
+                             how do you actually find a constant-depth quantum circuit connecting the states?
+                        </p>
+                    </div>
+                    <div class="paper-figure">
+                        <img src="figures/classify1.svg" alt="String-net diagram" style="width: 75%;">
+                    </div>
+                </article>
+
+                <!-- Featured Paper 2 -->
+                <article class="paper-featured">
+                    <div class="paper-content">
+                        <h4 class="paper-title">
+                            <a href="https://arxiv.org/abs/2306.13717" target="_blank">
+                                Ehrenfest's theorem beyond the Ehrenfest time
+                            </a>
+                        </h4>
+                        <p class="paper-authors">Felipe Hernández, Daniel Ranard, C. Jess Riedel</p>
+                        <p class="paper-venue">2023</p>
+                        <p class="paper-description">
+                            In closed quantum systems, wavepackets can spread exponentially in time due to chaos, forming long-range superpositions in just seconds for ordinary macroscopic systems.  
+                            A weakly coupled environment is conjectured to decohere the system and restore the quantum-classical correspondence. 
+                            We prove this in some generality for Hamiltonians <em>H</em>(<em>x</em>,<em>p</em>) of continuous variables coupled to a Markovian bath, and we identify a threshold strength of the bath coupling beyond which classicality is guaranteed.
+                            Also see our more mathematical <a href="https://arxiv.org/abs/2307.05326" target="_blank">companion paper</a>.
+                        </p>
+                    </div>
+                    <div class="paper-figure">
+                        <img src="figures/Ehrenfest1.svg" alt="Ehrenfest time diagram">
+                    </div>
+                </article>
+
+                <!-- Featured Paper 3 -->
+                <article class="paper-featured">
+                    <div class="paper-content">
+                        <h4 class="paper-title">
+                            <a href="https://arxiv.org/abs/2503.12789" target="_blank">
+                                Lower bounding the MaxCut of high girth 3-regular graphs using the QAOA
+                            </a>
+                        </h4>
+                        <p class="paper-authors">Edward Farhi, Sam Gutmann, Daniel Ranard, Benjamin Villalonga</p>
+                        <p class="paper-venue">2025</p>
+                        <p class="paper-description">
+                            We give a performance guarantee for the Quantum Approximate Optimization Algorithm (QAOA) on a certain class of MaxCut optimization problems. In fact, we show the QAOA yields an exponential speedup over currently known classical algorithms with comparable performance guarantees.  However, that may be subject to change with further development of classical algorithms.  On the purely mathematical side, as a consequence, we obtain new lower bounds on the MaxCut of high-girth 3-regular graphs.
+                        </p>
+                    </div>
+                    <div class="paper-figure">
+                        <img src="figures/qaoa1.svg" alt="QAOA performance diagram">
+                    </div>
+                </article>
+
+                <!-- Featured Paper 4 -->
+                <article class="paper-featured">
+                    <div class="paper-content">
+                        <h4 class="paper-title">
+                            <a href="https://arxiv.org/abs/2012.00741" target="_blank">
+                                A converse to Lieb-Robinson bounds in one dimension using index theory
+                            </a>
+                        </h4>
+                        <p class="paper-authors">Daniel Ranard, Michael Walter, Freek Witteveen</p>
+                        <p class="paper-venue">Annales Henri Poincaré (2022)</p>
+                        <p class="paper-description">
+                            The Lieb-Robinson bounds show that local Hamiltonian evolution on the lattice has an approximate lightcone. 
+                            But can all unitary evolutions with an approximate lightcone be expressed as a local Hamiltonian evolution?
+                            We answer questions like this in one spatial dimension, by showing the index theory for quantum cellular automata is robust.
+                        </p>
+                    </div>
+                    <div class="paper-figure">
+                        <img src="figures/converse1.svg" alt="Lieb-Robinson bounds diagram">
+                    </div>
+                </article>
+
+                <!-- Featured Paper 5 -->
+                <article class="paper-featured">
+                    <div class="paper-content">
+                        <h4 class="paper-title">
+                            <a href="https://arxiv.org/abs/1712.01850" target="_blank">
+                                Determining a local Hamiltonian from a single eigenstate
+                            </a>
+                        </h4>
+                        <p class="paper-authors">Xiao-Liang Qi, Daniel Ranard</p>
+                        <p class="paper-venue">Quantum (2019)</p>
+                        <p class="paper-description">
+                            Given the ground state of a local lattice Hamiltonian, we demonstrate how to recover the Hamiltonian from the state.  Under some conditions that appear to hold generically, the recovery is unique and numerically tractable.
+                        </p>
+                    </div>
+                    <div class="paper-figure">
+                        <img src="figures/determining1.svg" alt="Hamiltonian determination diagram">
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-content">
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <h3 class="contact-label">Email</h3>
+                        <p><a href="mailto:dranard@caltech.edu">dranard@caltech.edu</a></p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <h3 class="contact-label">Address</h3>
+                        <p>
+                          Caltech <br>
+                            Norman Bridge Laboratory (West Bridge), Office 158 
+                        </p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <h3 class="contact-label">Links</h3>
+                        <p>
+                            <a href="https://scholar.google.com/citations?user=4QbYckoAAAAJ&hl=en" target="_blank">Google Scholar</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Daniel Ranard. Last updated: October 2024.</p>
+        </div>
+    </footer>
+
+    <!-- Smooth scrolling script -->
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    const navHeight = document.querySelector('.nav').offsetHeight;
+                    const targetPosition = target.offsetTop - navHeight;
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Add active state to nav on scroll
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('.nav');
+            if (window.scrollY > 100) {
+                nav.classList.add('nav-scrolled');
+            } else {
+                nav.classList.remove('nav-scrolled');
+            }
+        });
+    </script>
+</body>
+</html>
+
